@@ -6,3 +6,13 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: flashr
+Version: 0.6-8
+Depends: R (>= 3.3)
+Imports: ashr (>= 2.2-4), ggplot2, graphics, grDevices, methods,
+        reshape2, softImpute, stats, utils
+Suggests: ebnm (>= 0.1-36), testthat, knitr, rmarkdown, REBayes, Rmosek
+License: BSD_3_clause + file LICENSE
+MD5sum: 0d5aefbf3b8a413f1dc93e53ba9b59de
+NeedsCompilation: no
