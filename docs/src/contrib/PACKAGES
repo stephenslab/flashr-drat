@@ -7,6 +7,15 @@ License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
 
+Package: ebnm
+Version: 0.1-36
+Depends: R (>= 3.3.0)
+Imports: stats, ashr, mixsqp, truncnorm, trust, horseshoe, deconvolveR
+Suggests: testthat, knitr, rmarkdown, ggplot2, microbenchmark, numDeriv
+License: GPL (>= 3)
+MD5sum: c270a76cdfda9babdfbee0af1d9d3740
+NeedsCompilation: no
+
 Package: flashr
 Version: 0.6-8
 Depends: R (>= 3.3)
